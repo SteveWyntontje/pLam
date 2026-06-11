@@ -1,10 +1,10 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.33.0.
+-- This file has been generated from package.yaml by hpack version 0.39.1.
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: eba382f62b4ab2b15d95a9088737dc2f9dda1e7e622d618bf439dae9cb891b4d
+-- hash: c6ed1f6b97e4681f62a83dfb6006517d1744901c97bb2c704556455825fcc7ed
 
 name:           pLam
 version:        2.2.1
@@ -32,7 +32,9 @@ library
       Paths_pLam
   hs-source-dirs:
       src
-  default-extensions: ImportQualifiedPost LambdaCase
+  default-extensions:
+      ImportQualifiedPost
+      LambdaCase
   build-depends:
       ansi-terminal
     , base >=4.7 && <5
@@ -48,7 +50,9 @@ executable plam
       Paths_pLam
   hs-source-dirs:
       app
-  default-extensions: ImportQualifiedPost LambdaCase
+  default-extensions:
+      ImportQualifiedPost
+      LambdaCase
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       ansi-terminal
