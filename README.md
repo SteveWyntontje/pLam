@@ -1,10 +1,9 @@
-[![Version](https://img.shields.io/github/release/sandrolovnicki/pLam.svg)](https://github.com/sandrolovnicki/pLam/releases)
-[![License](https://img.shields.io/github/license/sandrolovnicki/pLam.svg)](https://github.com/sandrolovnicki/pLam/blob/master/LICENSE)
+[![Version](https://img.shields.io/github/release/SteveWyntontje/pLam.svg)](https://github.com/SteveWyntontje/pLam/releases)
+[![License](https://img.shields.io/github/license/SteveWyntontje/pLam.svg)](https://github.com/SteveWyntontje/pLam/blob/master/LICENSE)
 
-<a href="https://www.buymeacoffee.com/slovnicki" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="30px" width= "108px"></a>
 
 <p align="center">
-  <img width=100% height=auto src="https://raw.githubusercontent.com/sandrolovnicki/pLam/master/res/demo-v2.gif">
+  <img width=100% height=auto src="https://raw.githubusercontent.com/SteveWyntontje/pLam/master/res/demo-v2.gif">
 </p>
 
 pLam (**p**ure **Lam**bda calculus) is a tool to explore, define and evaluate various λ-expressions. Code written in pLam can be executed interactively within pLam's shell or stored in a file with `.plam` extension and run anytime.
@@ -63,7 +62,7 @@ Inside `import/` directory, many useful λ-expressions are already implemented t
 
 ### Arch Linux
 
-pLam's AUR package is at https://aur.archlinux.org/packages/plam thanks to @Xmgplays.   
+pLam's AUR package is at https://aur.archlinux.org/packages/plam thanks to @Xmgplays.
 
 Git Clone URL: https://aur.archlinux.org/plam.git
 
@@ -97,7 +96,7 @@ On Windows, you can download 64-bit installer given at https://docs.haskellstack
 ## First time setup
 1. clone project repository
 ```
-git clone https://github.com/sandrolovnicki/pLam.git
+git clone https://github.com/SteveWyntontje/pLam.git
 ```
 2. go to project directory
 ```
@@ -374,7 +373,7 @@ pLam> QSort list
 <a name="rc"/>
 
 ### Redex coloring
-![redex_coloring.png](https://raw.githubusercontent.com/sandrolovnicki/pLam/master/res/redex_coloring.png "Redex Coloring")
+![redex_coloring.png](https://raw.githubusercontent.com/SteveWyntontje/pLam/master/res/redex_coloring.png "Redex Coloring")
 
 
 <a name="runex"/>
