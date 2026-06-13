@@ -3,8 +3,6 @@ cabal-version: 1.12
 -- This file has been generated from package.yaml by hpack version 0.39.1.
 --
 -- see: https://github.com/sol/hpack
---
--- hash: c6ed1f6b97e4681f62a83dfb6006517d1744901c97bb2c704556455825fcc7ed
 
 name:           pLam
 version:        2.2.1
@@ -39,6 +37,7 @@ library
       ansi-terminal
     , base >=4.7 && <5
     , containers
+    , directory
     , haskeline
     , mtl
     , parsec

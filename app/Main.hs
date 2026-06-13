@@ -87,7 +87,7 @@ execute line env =
                     liftIO (readFile (importPath <> f <> ".plam"))
                       >>= (\content -> execAll (lines content) env)
                   False ->
-                    outputStrLn ("--- import failed : " <> f <> ".plam does not exist within import/")
+                    outputStrLn ("--- import failed : " <> f <> ".plam does not exist within the import path")
                       >> pure env
               )
       Export f ->
