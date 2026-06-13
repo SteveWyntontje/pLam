@@ -13,11 +13,10 @@ echo "importPath = \"/usr/local/share/pLam/import/\"" >> src/Config.hs
 path_to_bin=$(find .stack-work/install -name plam)
 echo "Your path to plam binary is $path_to_bin"
 
-plam_path="$path_to_project/$path_to_bin"
+plam_path="$(pwd)/$path_to_bin"
 
-echo "... creating a script 'plam' in /usr/local/bin"
-echo "#!/bin/bash" > /usr/local/bin/plam
-echo "$plam_path \$@" >> /usr/local/bin/plam
+echo "... copying 'plam' to /usr/local/bin"
+cp $plam_path /usr/local/bin
 
 echo "... making it executable"
 chmod +x /usr/local/bin/plam
